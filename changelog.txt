@@ -1,0 +1,80 @@
+June 27, 2018 (2.0.0):
+  + Sidney added an IP limit to Diep.io
+    * RIP bots 2017-2018
+    * This script can now only probe servers.
+  + Updated the server list to fetch from server.
+  + Probing still works, so raid livestreams (manually) all you want.
+  + Feel free to disable the Tampermonkey script now.
+  + It's been a nice run everyone!
+  + Thank you for using this script!
+
+April 22, 2018 (1.9.0):
+  + Added regex probing
+    * See the documentation for details
+  + Fixed some errors when sending large numbers of bots
+
+April 14, 2018 (1.8.1):
+  + Added dev servers
+
+March 29, 2018 (1.8.0):
+  + Updated Diep Bot Utilities to work with the new encoding scheme
+  + UPDATE YOUR TAMPERMONKEY SCRIPT!!!
+
+February 23, 2018 (1.7.0):
+  + Updated code to use ArrayBuffers
+  + The first time you run this, "npm install" will be automatically run
+  + "npm install" will be run automatically after any future updates
+
+February 19, 2018 (1.6.1):
+  + Fixed a typo that crashes the program whenever a tribe is deleted
+
+February 12, 2018 (1.6.0):
+  + Follow mouse now automatically disables after respawning to allow pinging bots
+  + Fixed some bugs with kill
+  + !sp to spawn kill
+  + !w to spawn kill
+  + !atkid now spreads bots out if the last player update is >30 seconds ago
+  + Version 2 coming soon!
+
+February 9, 2018 (1.5.0):
+  + Added --autoAttack for easier farming
+  + Added !atk to toggle auto attack
+  + Since I pushed 4 updates in an hour, here's a summary of the new changes:
+    * !atkid is now fixed
+    * Tampermonkey script was updated to decrease conflict with other scripts
+      - Update it if you use auto-heal or any other scripts
+
+February 9, 2018 (1.4.2):
+  + UPDATE YOUR TAMPERMONKEY SCRIPT!!!
+  + This updated Tampermonkey script should have less conflicts with other scripts
+
+February 9, 2018 (1.4.1):
+  + Fixed an error when no kill is used
+
+February 9, 2018 (1.4.0):
+  + Bots can now buy and equip a hat (when a bot reaches enough gold to do so) using --kill <Players ID or hat name>
+  + A new command, !hat, to make a bot attempt to buy/equip a hat
+  + Fixed !atkid
+
+January 31, 2018 (1.3.1):
+  + Fixed a critical bug that crashed the code (I think)
+
+January 31, 2018 (1.3.0):
+  + Random skin colors with --randSkins
+  + BREAKING CHANGE: --randnames renamed to --randNames
+
+January 30, 2018 (1.2.2):
+  + Fixed autoSpam flag in start.bat
+
+January 28, 2018 (1.2.1):
+  + Made autosPAM default to true instead of false
+
+January 28, 2018 (1.2.0):
+  + No more need to manually setowner
+  + UPDATE YOUR TAMPERMONKEY SCRIPT!!!
+
+January 27, 2018 (1.1.1):
+  + Added batch scripts to make using bots on Windows easier
+
+January 27, 2018 (1.1.0):
+  + Added auto updater
