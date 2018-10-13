@@ -1,0 +1,33 @@
+{
+  "name": "diep-bots-with-all",
+  "version": "2.0.0",
+  "description": "A Diep AI Bot Script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mega-Mewthree",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "auto-updater": "^1.0.2",
+    "request": "^2.83.0",
+    "socket.io": "^2.0.4",
+    "socket.io-msgpack-parser": "^2.2.0"
+  },
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/honganhYT/diep.io-bot-io/new/master"
+  },
+  "bugs": "https://github.com/honganhYT/diep.io-bot-io/new/master",
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "auto-updater": {
+    "repo": "honganhYT/diep.io-bot-io",
+    "branch": "master"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.1"
+  }
+}
